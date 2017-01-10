@@ -1,4 +1,4 @@
-FROM docker:latest
+FROM docker:dind
 
 # Update and Install Packages
 RUN apk update && apk add \

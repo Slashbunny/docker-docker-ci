@@ -1,7 +1,7 @@
 FROM docker:latest
 
 # Update and Install Packages
-RUN apk update && apk fetch \
+RUN apk update && apk add \
     apache-ant \
     openssh-client \
     rsync \
